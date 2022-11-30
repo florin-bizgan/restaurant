@@ -14,6 +14,12 @@ export const GlobalStyling = createGlobalStyle`
     font-family: "Poppins", sans-serif;
 
   }
+
+  .container {
+  max-width: 1200px;
+  width: 90%;
+  margin: auto;
+}
 `;
 
 export default GlobalStyling;

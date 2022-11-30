@@ -5,13 +5,15 @@ import {
   Flex,
   Footer,
   Menu,
+  FoodMenu,
 } from "./component";
 
 function App() {
   return (
     <div>
       <GlobalStyling />
-      <Menu></Menu>
+      <Menu />
+      <FoodMenu />
       {/* <Button color='mountainMeadow'>Menu</Button> */}
       {/* <Flex
         direction='column'

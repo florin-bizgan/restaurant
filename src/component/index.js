@@ -4,3 +4,4 @@ export { ContactForm } from "./contact-form";
 export { Flex } from "./flex";
 export { Footer } from "./footer";
 export { Menu } from "./menu";
+export { FoodMenu } from "./food-menu";
