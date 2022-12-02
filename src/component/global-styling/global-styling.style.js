@@ -7,15 +7,16 @@ export const GlobalStyling = createGlobalStyle`
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  
 }
 
   // To be removed (ONLY FOR DEV)
   body,html {
     font-family: "Poppins", sans-serif;
-
+    
   }
 
-  .container {
+  #container {
   max-width: 1200px;
   width: 90%;
   margin: auto;

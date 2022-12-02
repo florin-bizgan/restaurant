@@ -12,7 +12,7 @@ function App() {
   return (
     <div>
       <GlobalStyling />
-      <Menu />
+      {/* <Menu /> */}
       <FoodMenu />
       {/* <Button color='mountainMeadow'>Menu</Button> */}
       {/* <Flex
@@ -24,7 +24,7 @@ function App() {
       >
         <ContactForm className='form-contact' />
       </Flex> */}
-      <Footer>Hello</Footer>
+      {/* <Footer>Hello</Footer> */}
     </div>
   );
 }
