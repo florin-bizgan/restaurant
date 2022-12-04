@@ -28,8 +28,8 @@ const FoodType = () => {
                 src={Food1}
                 alt='Image Alt'
                 className='img'
-                width={""}
-                height={""}
+                width='200'
+                height='200'
               />
               <div className='img-bot content'>
                 <a href='https://en.wikipedia.org/wiki/Fruit' target='blank'>
@@ -52,8 +52,8 @@ const FoodType = () => {
                 src={Food2}
                 alt='Image Alt'
                 className='img'
-                width={""}
-                height={""}
+                width='200'
+                height='200'
               />
               <div className='img-bot content'>
                 <a
@@ -79,8 +79,8 @@ const FoodType = () => {
                 src={Food3}
                 alt='Image Alt'
                 className='img'
-                width={""}
-                height={""}
+                width='200'
+                height='200'
               />
               <div className='img-bot content'>
                 <a href='https://en.wikipedia.org/wiki/Grain' target='blank'>

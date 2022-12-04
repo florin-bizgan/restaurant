@@ -20,8 +20,8 @@ const ContactForm = () => {
                 <LazyLoadImage
                   src={Image}
                   alt='Image Alt'
-                  width={""}
-                  height={""}
+                  width='200'
+                  height='200'
                   className='contact-img img'
                 />
               </div>

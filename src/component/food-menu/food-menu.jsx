@@ -20,7 +20,12 @@ const FoodMenu = () => {
                 alt=''
                 loading='lazy'
               /> */}
-              <LazyLoadImage src={Menu1} alt='Image Alt' />
+              <LazyLoadImage
+                src={Menu1}
+                alt='Image Alt'
+                width='200'
+                height='200'
+              />
             </div>
 
             <div className='food-info'>
@@ -39,8 +44,8 @@ const FoodMenu = () => {
               <LazyLoadImage
                 src={Menu2}
                 alt='Image Alt'
-                width={""}
-                height={""}
+                width='200'
+                height='200'
               />
             </div>
             <div className='food-info'>
@@ -59,8 +64,8 @@ const FoodMenu = () => {
               <LazyLoadImage
                 src={Menu3}
                 alt='Image Alt'
-                width={""}
-                height={""}
+                width='200'
+                height='200'
               />
             </div>
             <div className='food-info'>
@@ -79,8 +84,8 @@ const FoodMenu = () => {
               <LazyLoadImage
                 src={Menu4}
                 alt='Image Alt'
-                width={""}
-                height={""}
+                width='200'
+                height='200'
               />
             </div>
             <div className='food-info'>
@@ -99,8 +104,8 @@ const FoodMenu = () => {
               <LazyLoadImage
                 src={Menu5}
                 alt='Image Alt'
-                width={""}
-                height={""}
+                width='200'
+                height='200'
               />
             </div>
             <div className='food-info'>
@@ -119,8 +124,8 @@ const FoodMenu = () => {
               <LazyLoadImage
                 src={Menu6}
                 alt='Image Alt'
-                width={""}
-                height={""}
+                width='200'
+                height='200'
               />
             </div>
             <div className='food-info'>
