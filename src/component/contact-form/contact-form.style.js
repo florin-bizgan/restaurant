@@ -3,100 +3,124 @@ import styled from "styled-components";
 export const ContactForm = styled.div`
   @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
-  border-radius: 0.2rem;
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-  border: 1px solid black;
-
-  h1 {
-    font-size: 2.7rem;
-    font-weight: 500;
-    color: #444;
-  }
-
-  /* input,
-  textarea {
-    border-bottom: 2px solid #ddd;
-    outline: none;
-    margin: 0px 0px 16px;
-    padding: 16px 0px;
-  } */
-
+  /* ........ Contact Us........... */
   .contact {
     padding: 5rem 0;
     background: rgb(226, 226, 226);
   }
 
   .contact-container {
-    max-width: 1200px;
-    display: flex;
-    background: #fff;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* height: 400px; */
+  }
+
+  /* Image Area */
+  .image {
+    display: block;
+    width: 600px;
   }
 
   .contact-img {
-    width: 50%;
-  }
-
-  .contact-img img {
     display: block;
-    height: 400px;
     width: 100%;
+    height: 400px;
     object-position: center;
     object-fit: cover;
   }
 
+  /* Form Area */
   .form-container {
-    padding: 1rem;
-    width: 50%;
-    margin: auto;
+    height: 400px;
+    width: 100%;
+    padding: 16px;
+    background: #fff;
   }
 
-  .form-container input {
-    display: block;
-    width: 100%;
-    border: none;
-    border-bottom: 2px solid #ddd;
-    padding: 1rem 0;
-    box-shadow: none;
-    outline: none;
-    margin-bottom: 1rem;
-    font-weight: 500;
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
 
-    :hover {
-      background: #117964;
-      transition: color 0.3 ease-in-out;
+    h2 {
+      color: #444;
+      font-size: 2.7rem;
+      font-weight: 500;
+      margin-bottom: 1rem;
+      margin-top: -1.2rem;
+    }
+
+    input {
+      display: block;
+      border: none;
+      border-bottom: 2px solid #ddd;
+      margin-bottom: 1rem;
+      padding: 1rem 0;
+      /* box-shadow: none; */
+      outline: none;
+      color: #444;
+      font-weight: 500;
     }
   }
 
-  .btn {
-    background-color: #16a083;
-    border-radius: 1rem;
-    color: white;
-    /* padding: 0.5em 1.5em; */
-    width: 85px;
-    text-transform: uppercase;
-    /* border: none; */
-  }
-
-  .form-container textarea {
-    display: block;
-    width: 100%;
-    border: none;
-    border-bottom: 2px solid #ddd;
-    color: #444;
+  .button {
+    background: #16a083;
+    border-radius: 50px;
+    padding: 0.5em 1.5em;
+    text-decoration: none;
+    cursor: pointer;
     outline: none;
-    padding: 1rem 0;
-    resize: none;
+    border: none;
+    text-transform: uppercase;
+    color: #fff;
+    margin-top: 1em;
+
+    :hover {
+      background: #117964;
+      transition: color 1.3s ease-in-out;
+    }
   }
 
-  /* .form-container h1 {
-    font-size: 2.7rem;
-    font-weight: 500;
-    color: #444;
-    margin-bottom: 1rem;
-    margin-top: -1.2rem;
-  } */
+  //Tablet
+  @media screen and (max-width: 768px) {
+    .form-container {
+      width: 95%;
+
+      h2 {
+        font-size: 2.1rem;
+        transition: 0.3s ease-in-out;
+      }
+    }
+  }
+
+  // Mobile
+  @media screen and (max-width: 500px) {
+    // to be added
+
+    html {
+      font-size: 60%;
+    }
+
+    .form-container {
+      width: 90%;
+
+      h2 {
+        font-size: 2rem;
+      }
+    }
+
+    /* .contact-img {
+      width: 95%;
+      margin: 3rem auto;
+    } */
+
+    .contact-container {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
 `;
 
 export default ContactForm;

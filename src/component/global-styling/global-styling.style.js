@@ -16,7 +16,7 @@ export const GlobalStyling = createGlobalStyle`
     
   }
 
-  #container {
+  .container {
   max-width: 1200px;
   width: 90%;
   margin: auto;

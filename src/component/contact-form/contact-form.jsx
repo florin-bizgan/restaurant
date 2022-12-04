@@ -1,36 +1,37 @@
 import React from "react";
-// eslint-disable-next-line
-import { Formik } from "formik";
 import * as S from "./contact-form.style";
-import { Flex } from "../flex";
 
 const ContactForm = () => {
   return (
     <div>
-      <S.ContactForm>
-        <div className='contact'>
-          <div className='contact-container container'>
-            <Flex>
-              <img
-                src='https://i.postimg.cc/1XvYM67V/restraunt2.jpg'
-                alt=''
-                className='contact-img img'
-              />
-              <div className='form-container'>
-                <h1>Contact Us</h1>
-                <input name='name' type='text' placeholder='Your Name' />
-                <input name='email' type='text' placeholder='Email' />
-                <textarea
-                  name='message'
-                  placeholder='Your Message Here'
-                  rows='5'
+      <section id='contact'>
+        <S.ContactForm>
+          <div className='contact'>
+            <div className='contact-container container'>
+              <div className='contact-img'>
+                <img
+                  src='https://i.postimg.cc/1XvYM67V/restraunt2.jpg'
+                  alt=''
+                  className='contact-img img'
                 />
-                <input className='btn' type='submit' value='Submit' />
               </div>
-            </Flex>
+              <div className='form-container'>
+                <div className='form'>
+                  <h2>Contact Us</h2>
+                  <input name='name' type='text' placeholder='Your Name' />
+                  <input name='email' type='text' placeholder='Email' />
+                  <input
+                    name='message'
+                    type='text'
+                    placeholder='Your Message Here'
+                  />
+                </div>
+                <input className='button' type='button' value='Submit' />
+              </div>
+            </div>
           </div>
-        </div>
-      </S.ContactForm>
+        </S.ContactForm>
+      </section>
     </div>
   );
 };

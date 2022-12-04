@@ -12,17 +12,16 @@ export const FoodMenu = styled.div`
     display: grid;
     max-width: 1200px;
     margin: 0 auto;
-    grid-template-columns: repeat(2, 2fr);
+    grid-template-columns: repeat(2, 1fr);
     /* border: 2px solid blue; */
     padding: 50px 0px 30px 0px;
   }
 
   .food-container {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
     align-items: center;
-    flex-direction: column;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
+    /* border: 2px solid red; */
 
     /* border: 2px solid purple; */
     margin-bottom: 3rem;
@@ -30,8 +29,8 @@ export const FoodMenu = styled.div`
   }
 
   .food-image {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     overflow: hidden;
   }
 
@@ -47,7 +46,11 @@ export const FoodMenu = styled.div`
     margin: auto 1.5rem;
 
     h2 {
-      text-align: center;
+      /* text-align: center; */
+    }
+
+    p {
+      font-size: 0.8rem;
     }
   }
   .food-info p:nth-of-type(2) {
@@ -58,18 +61,36 @@ export const FoodMenu = styled.div`
 
   /* Media */
 
-  @media (max-width: 600px) {
+  //Tablet
+  @media (max-width: 768px) {
     .wrap-container {
       grid-template-columns: repeat(1, 1fr);
       align-items: center;
     }
 
+    .food-container {
+      display: flex;
+      align-items: center;
+      flex-direction: row;
+      justify-content: center;
+    }
+  }
+
+  //Phone
+  @media (max-width: 600px) {
     .food-container,
     .food-info {
       display: flex;
       align-items: center;
       flex-direction: column;
       justify-content: center;
+    }
+
+    .food-info {
+      h2,
+      p {
+        text-align: center;
+      }
     }
   }
 `;

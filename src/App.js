@@ -2,28 +2,23 @@ import {
   GlobalStyling,
   Button,
   ContactForm,
-  Flex,
   Footer,
   Menu,
   FoodMenu,
+  Header,
 } from "./component";
 
 function App() {
   return (
     <div>
       <GlobalStyling />
-      {/* <Menu /> */}
+      <Menu />
+      <Header />
       <FoodMenu />
       {/* <Button color='mountainMeadow'>Menu</Button> */}
-      {/* <Flex
-        direction='column'
-        align='center'
-        justify='center'
-        gap={10}
-        padding={10}
-      >
-        <ContactForm className='form-contact' />
-      </Flex> */}
+
+      <ContactForm className='form-contact' />
+
       {/* <Footer>Hello</Footer> */}
     </div>
   );

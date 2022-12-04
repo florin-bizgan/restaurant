@@ -5,3 +5,4 @@ export { Flex } from "./flex";
 export { Footer } from "./footer";
 export { Menu } from "./menu";
 export { FoodMenu } from "./food-menu";
+export { Header } from "./header";
