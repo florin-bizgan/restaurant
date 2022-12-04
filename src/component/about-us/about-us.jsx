@@ -1,5 +1,6 @@
-import { Flex } from "../flex";
 import * as S from "./about-us.style";
+import Image from "../images/about-photo.jpg";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const AboutUs = () => {
   return (
@@ -19,10 +20,16 @@ const AboutUs = () => {
               </p>
             </div>
             <div className='about-image'>
-              <img
+              {/* <img
                 src='https://i.postimg.cc/mgpwzmx9/about-photo.jpg'
                 alt=''
                 loading='lazy'
+              /> */}
+
+              <LazyLoadImage
+                src={Image}
+                alt='Image Alt'
+                className='about-image'
               />
             </div>
           </div>

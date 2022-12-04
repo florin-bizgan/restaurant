@@ -1,4 +1,6 @@
 import React from "react";
+import Image from "../images/restraunt2.jpg";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 import * as S from "./contact-form.style";
 
 const ContactForm = () => {
@@ -9,11 +11,16 @@ const ContactForm = () => {
           <div className='contact'>
             <div className='contact-container container'>
               <div className='contact-img'>
-                <img
+                {/* <img
                   src='https://i.postimg.cc/1XvYM67V/restraunt2.jpg'
                   alt=''
                   className='contact-img img'
                   loading='lazy'
+                /> */}
+                <LazyLoadImage
+                  src={Image}
+                  alt='Image Alt'
+                  className='contact-img img'
                 />
               </div>
               <div className='form-container'>

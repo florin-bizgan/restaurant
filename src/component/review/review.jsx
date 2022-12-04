@@ -1,4 +1,8 @@
 import * as S from "./review.style";
+import Image1 from "../images/male-photo1.jpg";
+import Image2 from "../images/male-photo3.jpg";
+import Image3 from "../images/female-photo1.jpg";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const Review = () => {
   return (
@@ -9,11 +13,19 @@ const Review = () => {
             <h1>What Our Customers Say</h1>
             <div className='review'>
               <div className='review-box'>
-                <img
+                {/* <img
                   className='img-client'
                   src={`${process.env.PUBLIC_URL}/assets/img/male-photo1.jpg`}
                   alt='logo'
                   loading='lazy'
+                /> */}
+
+                <LazyLoadImage
+                  src={Image1}
+                  width={600}
+                  height={400}
+                  alt='Image Alt'
+                  className='img-client'
                 />
                 <h3>Max</h3>
                 <div className='star'>
@@ -32,11 +44,18 @@ const Review = () => {
                 </div>
               </div>
               <div className='review-box'>
-                <img
+                {/* <img
                   className='img-client'
                   src={`${process.env.PUBLIC_URL}/assets/img/female-photo1.jpg`}
                   alt='logo'
                   loading='lazy'
+                /> */}
+                <LazyLoadImage
+                  src={Image3}
+                  width={600}
+                  height={400}
+                  alt='Image Alt'
+                  className='img-client'
                 />
                 <h3>Jane</h3>
                 <div className='star'>
@@ -55,11 +74,18 @@ const Review = () => {
                 </div>
               </div>
               <div className='review-box'>
-                <img
+                {/* <img
                   className='img-client'
                   src={`${process.env.PUBLIC_URL}/assets/img/male-photo3.jpg`}
                   alt='logo'
                   loading='lazy'
+                /> */}
+                <LazyLoadImage
+                  src={Image2}
+                  width={600}
+                  height={400}
+                  alt='Image Alt'
+                  className='img-client'
                 />
                 <h3>Robert</h3>
                 <div className='star'>
