@@ -1,6 +1,5 @@
 import {
   GlobalStyling,
-  Button,
   ContactForm,
   Footer,
   Menu,
@@ -15,7 +14,6 @@ function App() {
       <Menu />
       <Header />
       <FoodMenu />
-      {/* <Button color='mountainMeadow'>Menu</Button> */}
 
       <ContactForm className='form-contact' />
 

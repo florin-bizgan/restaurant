@@ -15,6 +15,11 @@ export const Button = styled.button`
   padding: 0.5em 1.5em;
   font-size: 1.6rem;
   text-transform: uppercase;
+  border: none;
+  margin-top: ${({ marginTop }) => `${marginTop}px`};
+  margin-bottom: ${({ marginBottom }) => `${marginBottom}px`};
+  margin-left: ${({ marginLeft }) => `${marginLeft}px`};
+  margin-right: ${({ marginRight }) => `${marginRight}px`};
 
   :hover {
     background: #117964;
