@@ -6,6 +6,7 @@ import {
   FoodMenu,
   Header,
   AboutUs,
+  FoodType,
   Flex,
 } from "./component";
 
@@ -16,6 +17,7 @@ function App() {
       <Menu />
       <Header />
       <AboutUs />
+      <FoodType />
       <FoodMenu />
       <ContactForm />
       <Footer>

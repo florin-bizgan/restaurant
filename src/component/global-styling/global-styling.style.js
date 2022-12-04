@@ -10,8 +10,9 @@ export const GlobalStyling = createGlobalStyle`
   
 }
 
-  // To be removed (ONLY FOR DEV)
-  body,html {
+// To be removed (ONLY FOR DEV)
+body,html {
+    scroll-behavior: smooth;
     font-family: "Poppins", sans-serif;
   }
 

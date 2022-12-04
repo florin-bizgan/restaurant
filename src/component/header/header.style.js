@@ -9,6 +9,10 @@ export const Header = styled.div`
     background-position: center;
     background-size: cover;
 
+    button {
+      cursor: pointer;
+    }
+
     /* background: linear-gradient(
         rgba(240, 240, 240, 0.144),
         rgba(255, 255, 255, 0.336)

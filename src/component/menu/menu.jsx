@@ -19,7 +19,7 @@ const Menu = () => {
               <a href='#about'>About</a>
             </li>
             <li>
-              <a href='#category'>Category</a>
+              <a href='#type'>Category</a>
             </li>
             <li>
               <a href='#menu'>Menu</a>

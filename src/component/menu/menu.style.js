@@ -50,8 +50,8 @@ export const Menu = styled.div`
   }
 
   .logo {
-    order: 1;
-    font-size: 2.3rem;
+    /* order: 1; */
+    font-size: 1.8rem;
     margin-bottom: 0.5rem;
   }
 

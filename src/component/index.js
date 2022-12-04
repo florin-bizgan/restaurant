@@ -7,3 +7,4 @@ export { Menu } from "./menu";
 export { FoodMenu } from "./food-menu";
 export { Header } from "./header";
 export { AboutUs } from "./about-us";
+export { FoodType } from "./food-type";

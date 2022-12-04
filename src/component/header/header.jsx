@@ -4,7 +4,7 @@ import * as S from "./header.style";
 const Header = () => {
   return (
     <S.Header>
-      <section id='menu'>
+      <section id='home'>
         <div className='header'>
           <h2>Eat right food</h2>
           <p>Eat Healty, it is good for your health.</p>
