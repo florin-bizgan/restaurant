@@ -16,6 +16,7 @@ export const Menu = styled.div`
     height: 50px;
     /* z-index: 12; */
     padding: 0px 45px 0px 45px;
+    z-index: 1;
   }
 
   .navbar-container {

@@ -13,8 +13,8 @@ import {
 function App() {
   return (
     <div>
-      <GlobalStyling />
       <Menu />
+      <GlobalStyling />
       <Header />
       <AboutUs />
       <FoodType />

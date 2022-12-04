@@ -19,7 +19,6 @@ export const FoodType = styled.div`
   .wrap-img {
     display: flex;
     justify-content: space-between;
-    /* gap: 5px; */
 
     img {
       display: block;
@@ -60,6 +59,15 @@ export const FoodType = styled.div`
 
     a:hover {
       color: #16a083;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .wrap-img {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      margin: auto;
     }
   }
 `;
