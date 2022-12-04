@@ -1,15 +1,29 @@
 {
   "files": {
     "main.css": "/restaurant/static/css/main.e6c13ad2.css",
-    "main.js": "/restaurant/static/js/main.e458d6c5.js",
+    "main.js": "/restaurant/static/js/main.f10fe49f.js",
     "static/js/787.aab8bd84.chunk.js": "/restaurant/static/js/787.aab8bd84.chunk.js",
+    "static/media/food2.jpg": "/restaurant/static/media/food2.8ee991abdbf098b6c723.jpg",
+    "static/media/food1.jpg": "/restaurant/static/media/food1.fe4485e5f62623e1e738.jpg",
+    "static/media/food3.jpg": "/restaurant/static/media/food3.6d5040deb3c627f9cd93.jpg",
+    "static/media/female-photo1.jpg": "/restaurant/static/media/female-photo1.be514754d58d8d64fd41.jpg",
+    "static/media/restraunt2.jpg": "/restaurant/static/media/restraunt2.e2a2e445c079cb4049e8.jpg",
+    "static/media/about-photo.jpg": "/restaurant/static/media/about-photo.1b5753bec6e5459d232f.jpg",
+    "static/media/food-menu6.jpg": "/restaurant/static/media/food-menu6.5f2ee7b1177bed9caaef.jpg",
+    "static/media/food-menu3.jpg": "/restaurant/static/media/food-menu3.c6db9a1d5a26825fd121.jpg",
+    "static/media/food-menu4.jpg": "/restaurant/static/media/food-menu4.0fac6a20557d20cec77b.jpg",
+    "static/media/food-menu5.jpg": "/restaurant/static/media/food-menu5.9331befae20459caca13.jpg",
+    "static/media/food-menu2.jpg": "/restaurant/static/media/food-menu2.2c3e95cc0344aae7b129.jpg",
+    "static/media/food-menu1.jpg": "/restaurant/static/media/food-menu1.b52dcdefcd6ebe96abf0.jpg",
+    "static/media/male-photo1.jpg": "/restaurant/static/media/male-photo1.b315d2ad169fed07f49c.jpg",
+    "static/media/male-photo3.jpg": "/restaurant/static/media/male-photo3.2dc7169523aced954bd0.jpg",
     "index.html": "/restaurant/index.html",
     "main.e6c13ad2.css.map": "/restaurant/static/css/main.e6c13ad2.css.map",
-    "main.e458d6c5.js.map": "/restaurant/static/js/main.e458d6c5.js.map",
+    "main.f10fe49f.js.map": "/restaurant/static/js/main.f10fe49f.js.map",
     "787.aab8bd84.chunk.js.map": "/restaurant/static/js/787.aab8bd84.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.e458d6c5.js"
+    "static/js/main.f10fe49f.js"
   ]
 }
