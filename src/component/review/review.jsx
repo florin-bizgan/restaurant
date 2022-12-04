@@ -1,7 +1,7 @@
 import * as S from "./review.style";
-import Image1 from "../images/male-photo1.jpg";
-import Image2 from "../images/male-photo3.jpg";
-import Image3 from "../images/female-photo1.jpg";
+import Image1 from "../images/male-photo1.webp";
+import Image2 from "../images/male-photo3.webp";
+import Image3 from "../images/female-photo1.webp";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const Review = () => {

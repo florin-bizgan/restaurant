@@ -1,10 +1,10 @@
 import * as S from "./food-menu.style";
-import Menu1 from "../images/food-menu1.jpg";
-import Menu2 from "../images/food-menu2.jpg";
-import Menu3 from "../images/food-menu3.jpg";
-import Menu4 from "../images/food-menu4.jpg";
-import Menu5 from "../images/food-menu5.jpg";
-import Menu6 from "../images/food-menu6.jpg";
+import Menu1 from "../images/food-menu1.webp";
+import Menu2 from "../images/food-menu2.webp";
+import Menu3 from "../images/food-menu3.webp";
+import Menu4 from "../images/food-menu4.webp";
+import Menu5 from "../images/food-menu5.webp";
+import Menu6 from "../images/food-menu6.webp";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const FoodMenu = () => {

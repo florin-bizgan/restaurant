@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "../images/restraunt2.jpg";
+import Image from "../images/restraunt2.webp";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import * as S from "./contact-form.style";
 

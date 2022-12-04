@@ -4,7 +4,7 @@ export const Header = styled.div`
   //add css here
   .header {
     height: 50vh;
-    background: url(https://i.postimg.cc/wT3TQS3V/header-image2.jpg);
+    background-image: url("https://i.postimg.cc/wT3TQS3V/header-image2.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

@@ -1,5 +1,5 @@
 import * as S from "./about-us.style";
-import Image from "../images/about-photo.jpg";
+import Image from "../images/about-photo.webp";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const AboutUs = () => {

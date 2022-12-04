@@ -1,7 +1,7 @@
 import * as S from "./food-type.style";
-import Food1 from "../images/food1.jpg";
-import Food2 from "../images/food2.jpg";
-import Food3 from "../images/food3.jpg";
+import Food1 from "../images/food1.webp";
+import Food2 from "../images/food2.webp";
+import Food3 from "../images/food3.webp";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const FoodType = () => {
