@@ -7,6 +7,7 @@ import {
   Header,
   AboutUs,
   FoodType,
+  Review,
   Flex,
 } from "./component";
 
@@ -19,6 +20,7 @@ function App() {
       <AboutUs />
       <FoodType />
       <FoodMenu />
+      <Review />
       <ContactForm />
       <Footer>
         <p>Ristorante "La Mitica". © All rights reserved 2022</p>

@@ -25,7 +25,7 @@ const Menu = () => {
               <a href='#menu'>Menu</a>
             </li>
             <li>
-              <a href='#testimonial'>Testimonial</a>
+              <a href='#reviews'>Testimonial</a>
             </li>
             <li>
               <a href='#contact'>Contact</a>
