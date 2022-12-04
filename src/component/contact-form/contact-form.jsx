@@ -13,6 +13,7 @@ const ContactForm = () => {
                   src='https://i.postimg.cc/1XvYM67V/restraunt2.jpg'
                   alt=''
                   className='contact-img img'
+                  loading='lazy'
                 />
               </div>
               <div className='form-container'>

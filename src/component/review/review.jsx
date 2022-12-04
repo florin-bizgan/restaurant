@@ -13,6 +13,7 @@ const Review = () => {
                   className='img-client'
                   src={`${process.env.PUBLIC_URL}/assets/img/male-photo1.jpg`}
                   alt='logo'
+                  loading='lazy'
                 />
                 <h3>Max</h3>
                 <div className='star'>
@@ -20,6 +21,7 @@ const Review = () => {
                     className='img-review'
                     src={`${process.env.PUBLIC_URL}/assets/img/star.png`}
                     alt='logo'
+                    loading='lazy'
                   />
                   <p className='review-text'>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -34,6 +36,7 @@ const Review = () => {
                   className='img-client'
                   src={`${process.env.PUBLIC_URL}/assets/img/female-photo1.jpg`}
                   alt='logo'
+                  loading='lazy'
                 />
                 <h3>Jane</h3>
                 <div className='star'>
@@ -41,6 +44,7 @@ const Review = () => {
                     className='img-review'
                     src={`${process.env.PUBLIC_URL}/assets/img/star.png`}
                     alt='logo'
+                    loading='lazy'
                   />
                   <p className='review-text'>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -55,6 +59,7 @@ const Review = () => {
                   className='img-client'
                   src={`${process.env.PUBLIC_URL}/assets/img/male-photo3.jpg`}
                   alt='logo'
+                  loading='lazy'
                 />
                 <h3>Robert</h3>
                 <div className='star'>
@@ -62,6 +67,7 @@ const Review = () => {
                     className='img-review'
                     src={`${process.env.PUBLIC_URL}/assets/img/star.png`}
                     alt='logo'
+                    loading='lazy'
                   />
                   <p className='review-text'>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.

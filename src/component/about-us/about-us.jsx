@@ -19,7 +19,11 @@ const AboutUs = () => {
               </p>
             </div>
             <div className='about-image'>
-              <img src='https://i.postimg.cc/mgpwzmx9/about-photo.jpg' alt='' />
+              <img
+                src='https://i.postimg.cc/mgpwzmx9/about-photo.jpg'
+                alt=''
+                loading='lazy'
+              />
             </div>
           </div>
         </div>
