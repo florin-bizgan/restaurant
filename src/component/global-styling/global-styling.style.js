@@ -13,12 +13,11 @@ export const GlobalStyling = createGlobalStyle`
   // To be removed (ONLY FOR DEV)
   body,html {
     font-family: "Poppins", sans-serif;
-    
   }
 
   .container {
   max-width: 1200px;
-  width: 90%;
+  width: 80%;
   margin: auto;
 }
 `;

@@ -21,6 +21,7 @@ const ContactForm = () => {
                   <input name='name' type='text' placeholder='Your Name' />
                   <input name='email' type='text' placeholder='Email' />
                   <input
+                    className='btn'
                     name='message'
                     type='text'
                     placeholder='Your Message Here'

@@ -10,10 +10,8 @@ export const FoodMenu = styled.div`
 
   .wrap-container {
     display: grid;
-    max-width: 1200px;
     margin: 0 auto;
     grid-template-columns: repeat(2, 1fr);
-    /* border: 2px solid blue; */
     padding: 50px 0px 30px 0px;
   }
 
@@ -21,9 +19,6 @@ export const FoodMenu = styled.div`
     display: grid;
     grid-template-columns: 1fr 3fr;
     align-items: center;
-    /* border: 2px solid red; */
-
-    /* border: 2px solid purple; */
     margin-bottom: 3rem;
     padding: 5px 0px 5px 5px;
   }

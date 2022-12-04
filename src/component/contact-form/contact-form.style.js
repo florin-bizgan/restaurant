@@ -95,24 +95,23 @@ export const ContactForm = styled.div`
 
   // Mobile
   @media screen and (max-width: 500px) {
-    // to be added
-
-    html {
+    /* html {
       font-size: 60%;
-    }
+    } */
 
     .form-container {
-      width: 90%;
+      width: 100%;
+      height: auto;
+      padding-top: 25px;
 
       h2 {
         font-size: 2rem;
       }
     }
 
-    /* .contact-img {
-      width: 95%;
-      margin: 3rem auto;
-    } */
+    .form input {
+      font-size: 70%;
+    }
 
     .contact-container {
       display: flex;

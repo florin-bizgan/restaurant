@@ -5,6 +5,8 @@ import {
   Menu,
   FoodMenu,
   Header,
+  AboutUs,
+  Flex,
 } from "./component";
 
 function App() {
@@ -13,11 +15,19 @@ function App() {
       <GlobalStyling />
       <Menu />
       <Header />
+      <AboutUs />
       <FoodMenu />
-
-      <ContactForm className='form-contact' />
-
-      {/* <Footer>Hello</Footer> */}
+      <ContactForm />
+      <Footer>
+        <p>Ristorante "La Mitica". © All rights reserved 2022</p>
+        <div className='social'>
+          {/* <img
+            className='img-foot'
+            src={`${process.env.PUBLIC_URL}/assets/my-logo-2.png`}
+            alt='logo'
+          /> */}
+        </div>
+      </Footer>
     </div>
   );
 }
