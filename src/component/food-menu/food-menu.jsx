@@ -36,7 +36,12 @@ const FoodMenu = () => {
                 alt=''
                 loading='lazy'
               /> */}
-              <LazyLoadImage src={Menu2} alt='Image Alt' />
+              <LazyLoadImage
+                src={Menu2}
+                alt='Image Alt'
+                width={""}
+                height={""}
+              />
             </div>
             <div className='food-info'>
               <h2>Menu 2</h2>
@@ -51,7 +56,12 @@ const FoodMenu = () => {
                 alt=''
                 loading='lazy'
               /> */}
-              <LazyLoadImage src={Menu3} alt='Image Alt' />
+              <LazyLoadImage
+                src={Menu3}
+                alt='Image Alt'
+                width={""}
+                height={""}
+              />
             </div>
             <div className='food-info'>
               <h2>Menu 3</h2>
@@ -66,7 +76,12 @@ const FoodMenu = () => {
                 alt=''
                 loading='lazy'
               /> */}
-              <LazyLoadImage src={Menu4} alt='Image Alt' />
+              <LazyLoadImage
+                src={Menu4}
+                alt='Image Alt'
+                width={""}
+                height={""}
+              />
             </div>
             <div className='food-info'>
               <h2>Menu 4</h2>
@@ -81,7 +96,12 @@ const FoodMenu = () => {
                 alt=''
                 loading='lazy'
               /> */}
-              <LazyLoadImage src={Menu5} alt='Image Alt' />
+              <LazyLoadImage
+                src={Menu5}
+                alt='Image Alt'
+                width={""}
+                height={""}
+              />
             </div>
             <div className='food-info'>
               <h2>Menu 5</h2>
@@ -96,7 +116,12 @@ const FoodMenu = () => {
                 alt=''
                 loading='lazy'
               /> */}
-              <LazyLoadImage src={Menu6} alt='Image Alt' />
+              <LazyLoadImage
+                src={Menu6}
+                alt='Image Alt'
+                width={""}
+                height={""}
+              />
             </div>
             <div className='food-info'>
               <h2>Menu 6</h2>

@@ -24,7 +24,13 @@ const FoodType = () => {
                 loading='lazy'
               /> */}
 
-              <LazyLoadImage src={Food1} alt='Image Alt' className='img' />
+              <LazyLoadImage
+                src={Food1}
+                alt='Image Alt'
+                className='img'
+                width={""}
+                height={""}
+              />
               <div className='img-bot content'>
                 <a href='https://en.wikipedia.org/wiki/Fruit' target='blank'>
                   Read more
@@ -42,7 +48,13 @@ const FoodType = () => {
                 loading='lazy'
               /> */}
 
-              <LazyLoadImage src={Food2} alt='Image Alt' className='img' />
+              <LazyLoadImage
+                src={Food2}
+                alt='Image Alt'
+                className='img'
+                width={""}
+                height={""}
+              />
               <div className='img-bot content'>
                 <a
                   href='https://en.wikipedia.org/wiki/Vegetable'
@@ -63,7 +75,13 @@ const FoodType = () => {
                 loading='lazy'
               /> */}
 
-              <LazyLoadImage src={Food3} alt='Image Alt' className='img' />
+              <LazyLoadImage
+                src={Food3}
+                alt='Image Alt'
+                className='img'
+                width={""}
+                height={""}
+              />
               <div className='img-bot content'>
                 <a href='https://en.wikipedia.org/wiki/Grain' target='blank'>
                   Read more

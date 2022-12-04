@@ -29,6 +29,8 @@ const AboutUs = () => {
               <LazyLoadImage
                 src={Image}
                 alt='Image Alt'
+                width={""}
+                height={""}
                 className='about-image'
               />
             </div>

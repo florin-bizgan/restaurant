@@ -22,8 +22,8 @@ const Review = () => {
 
                 <LazyLoadImage
                   src={Image1}
-                  width={600}
-                  height={400}
+                  width={""}
+                  height={""}
                   alt='Image Alt'
                   className='img-client'
                 />
@@ -52,8 +52,8 @@ const Review = () => {
                 /> */}
                 <LazyLoadImage
                   src={Image3}
-                  width={600}
-                  height={400}
+                  width={""}
+                  height={""}
                   alt='Image Alt'
                   className='img-client'
                 />
@@ -82,8 +82,8 @@ const Review = () => {
                 /> */}
                 <LazyLoadImage
                   src={Image2}
-                  width={600}
-                  height={400}
+                  width={""}
+                  height={""}
                   alt='Image Alt'
                   className='img-client'
                 />
