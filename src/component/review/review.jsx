@@ -1,27 +1,17 @@
 import * as S from "./review.style";
-import Image1 from "../images/male-photo1.webp";
-import Image2 from "../images/male-photo3.webp";
-import Image3 from "../images/female-photo1.webp";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const Review = () => {
   return (
     <S.Review>
       <section id='reviews'>
-        <div className='reviews-area'>
+        <S.ReviewArea>
           <div className='title container'>
             <h1>What Our Customers Say</h1>
             <div className='review'>
               <div className='review-box'>
-                {/* <img
-                  className='img-client'
-                  src={`${process.env.PUBLIC_URL}/assets/img/male-photo1.jpg`}
-                  alt='logo'
-                  loading='lazy'
-                /> */}
-
                 <LazyLoadImage
-                  src={Image1}
+                  src={`${process.env.PUBLIC_URL}/assets/img/male-photo1.webp`}
                   width='200'
                   height='200'
                   alt='Image Alt'
@@ -44,14 +34,8 @@ const Review = () => {
                 </div>
               </div>
               <div className='review-box'>
-                {/* <img
-                  className='img-client'
-                  src={`${process.env.PUBLIC_URL}/assets/img/female-photo1.jpg`}
-                  alt='logo'
-                  loading='lazy'
-                /> */}
                 <LazyLoadImage
-                  src={Image3}
+                  src={`${process.env.PUBLIC_URL}/assets/img/female-photo1.webp`}
                   width='200'
                   height='200'
                   alt='Image Alt'
@@ -74,14 +58,8 @@ const Review = () => {
                 </div>
               </div>
               <div className='review-box'>
-                {/* <img
-                  className='img-client'
-                  src={`${process.env.PUBLIC_URL}/assets/img/male-photo3.jpg`}
-                  alt='logo'
-                  loading='lazy'
-                /> */}
                 <LazyLoadImage
-                  src={Image2}
+                  src={`${process.env.PUBLIC_URL}/assets/img/male-photo3.webp`}
                   width='200'
                   height='200'
                   alt='Image Alt'
@@ -105,7 +83,7 @@ const Review = () => {
               </div>
             </div>
           </div>
-        </div>
+        </S.ReviewArea>
       </section>
     </S.Review>
   );

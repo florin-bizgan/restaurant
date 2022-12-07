@@ -1,17 +1,18 @@
 import styled from "styled-components";
 
+export const ReviewArea = styled.div`
+  background: rgba(243, 243, 243);
+  text-align: center;
+  padding: 5rem 0;
+
+  h1 {
+    color: #444;
+    font-weight: 400;
+  }
+`;
+
 export const Review = styled.div`
   //css here
-  .reviews-area {
-    background: rgba(243, 243, 243);
-    text-align: center;
-    padding: 5rem 0;
-
-    h1 {
-      color: #444;
-      font-weight: 400;
-    }
-  }
 
   .review {
     display: grid;
