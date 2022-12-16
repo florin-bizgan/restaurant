@@ -35,6 +35,11 @@ export const Header = styled.div`
       font-size: 1.2rem;
       font-weight: 400;
       text-decoration: underline;
+
+      :hover {
+        /* font-size: 1.3rem; */
+        font-weight: 800;
+      }
     }
   }
 `;
