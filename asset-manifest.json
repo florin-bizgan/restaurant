@@ -1,12 +1,11 @@
 {
   "files": {
     "main.css": "/restaurant/static/css/main.e6c13ad2.css",
-    "main.js": "/restaurant/static/js/main.7ab6433d.js",
+    "main.js": "/restaurant/static/js/main.af141b7d.js",
     "static/js/787.aab8bd84.chunk.js": "/restaurant/static/js/787.aab8bd84.chunk.js",
     "static/media/food2.webp": "/restaurant/static/media/food2.0c64682317fd226e12b7.webp",
     "static/media/food1.webp": "/restaurant/static/media/food1.2cd8050026ac0028b824.webp",
     "static/media/food3.webp": "/restaurant/static/media/food3.9911718451d2f27423ee.webp",
-    "static/media/female-photo1.webp": "/restaurant/static/media/female-photo1.ea97029307d339eb4afd.webp",
     "static/media/restraunt2.webp": "/restaurant/static/media/restraunt2.1207e1a8a2ba90f3df0a.webp",
     "static/media/about-photo.webp": "/restaurant/static/media/about-photo.0c81987cdb9a59608804.webp",
     "static/media/food-menu4.webp": "/restaurant/static/media/food-menu4.14e6e23ff99e197540ac.webp",
@@ -15,15 +14,13 @@
     "static/media/food-menu1.webp": "/restaurant/static/media/food-menu1.ccbdbbb14d0a7e127e6f.webp",
     "static/media/food-menu5.webp": "/restaurant/static/media/food-menu5.7007d16acba289674c1f.webp",
     "static/media/food-menu2.webp": "/restaurant/static/media/food-menu2.69eb8f007ae4e05d59d0.webp",
-    "static/media/male-photo1.webp": "/restaurant/static/media/male-photo1.2a2051c2283d75f6ca56.webp",
-    "static/media/male-photo3.webp": "/restaurant/static/media/male-photo3.da4f9cb985578d5022dc.webp",
     "index.html": "/restaurant/index.html",
     "main.e6c13ad2.css.map": "/restaurant/static/css/main.e6c13ad2.css.map",
-    "main.7ab6433d.js.map": "/restaurant/static/js/main.7ab6433d.js.map",
+    "main.af141b7d.js.map": "/restaurant/static/js/main.af141b7d.js.map",
     "787.aab8bd84.chunk.js.map": "/restaurant/static/js/787.aab8bd84.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.7ab6433d.js"
+    "static/js/main.af141b7d.js"
   ]
 }
