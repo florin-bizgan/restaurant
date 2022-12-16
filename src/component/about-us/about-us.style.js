@@ -32,9 +32,12 @@ export const AboutUs = styled.div`
   .about-image {
     transform: translate(150%);
     animation: about-text-animation 1s ease-in-out forwards;
+    display: flex;
+    justify-content: flex-end;
+
     img {
       height: 300px;
-      max-width: 100%;
+      max-width: 450px;
       object-fit: cover;
       object-position: right;
     }
