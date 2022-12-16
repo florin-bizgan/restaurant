@@ -30,5 +30,11 @@ export const Header = styled.div`
       font-weight: 800;
       text-transform: uppercase;
     }
+
+    p {
+      font-size: 1.2rem;
+      font-weight: 400;
+      text-decoration: underline;
+    }
   }
 `;
